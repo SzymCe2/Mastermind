@@ -26,13 +26,9 @@ class porownywanie_odp:
             if odpowiedz_kopia[x] and odpowiedz_kopia[x] in kod_kopia:
                 dobry_kolor += 1
                 indeks = kod_kopia.index(odpowiedz_kopia[x])
-                odpowiedz_kopia[x] = None #usunięcie koloru żeby się nie powtarzał
+                odpowiedz_kopia[indeks] = None #usunięcie koloru żeby się nie powtarzał
 
-        #wypisanie do konsoli wyniku
-        #print("Trafionych dobrze kolorów i pozycji: ", dobra_odpowiedz, "\n")
-        #print("Trafionych dobrze kolorów ale źle pozycji: ", dobry_kolor, "\n")
-
-        #albo return wartości
+        #return wartości, w wypadku len(kod) == dobra_odpowiedz użytkownik zgadł wszytko dobrze, w przeciwnym wypaadku należy wywołać funkcję ponownie z nową odpowiedzią
         return dobra_odpowiedz, dobry_kolor
 
 
