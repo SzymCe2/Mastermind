@@ -1,6 +1,9 @@
 import unittest
 import random
 
+from generator_kodu import KodGenerator
+
+
 class Test_Generator(unittest.TestCase):
     def setUp(self):
         self.generator=KodGenerator()
