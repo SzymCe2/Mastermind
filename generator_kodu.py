@@ -12,8 +12,8 @@ class KodGenerator:
             if trudnosc == 'latwy':
                 tryb = 'kolory'
                 symbole = kolory_podstawowe
-                dlugosc = 6
-                unikalne = True
+                dlugosc = 4
+                unikalne = False
             elif trudnosc == 'sredni':
                 tryb = 'kolory'
                 symbole = kolory_podstawowe
