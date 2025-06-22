@@ -8,7 +8,7 @@ class MastermindGUI(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("Mastermind 🎮")
+        self.title("Mastermind")
         self.geometry("850x550")
         self.resizable(False, False)
         self.configure(bg="#1e1e2f")
