@@ -1,0 +1,27 @@
+Uczestnicy: Krzysiek, Mateusz, Ula, Leon, Szymon
+
+Krzysiek:
+Zakończyłem implementację generatora kodu.
+Dziś przystąpię do debugowania i testów.
+Brak problemów.
+
+Mateusz:
+Pracowałem nad logiką porównania i testami jednostkowymi.
+Dziś poprawiam błędy w walidacji danych.
+Potrzebuję wsparcia z integracją modułów.
+
+Ula:
+Ukończyłam podstawowy interfejs konsoli.
+Dziś zajmę się integracją i code review.
+Brak problemów.
+
+Szymon:
+
+Koordynowałem działania zespołu i aktualizowałem backlog.
+Dziś przygotuję dokumentację sprintu.
+Brak problemów.
+
+Leon:
+Testowałem działanie interfejsu i zgłaszałem błędy.
+Dziś wykonam kolejną rundę testów.
+Brak problemów.
