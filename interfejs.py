@@ -9,7 +9,7 @@ class MastermindGUI(tk.Tk):
         super().__init__()
 
         self.title("Mastermind")
-        self.geometry("850x550")
+        self.geometry("850x500")
         self.resizable(False, False)
         self.configure(bg="#1e1e2f")
 
@@ -33,7 +33,7 @@ class MastermindGUI(tk.Tk):
         self.guess_vars = []
 
     def create_widgets(self):
-        label_title = ttk.Label(self, text="🎮 Witaj w grze Mastermind!", font=self.styl_naglowka)
+        label_title = ttk.Label(self, text="🎮 Witaj w Mastermind!", font=self.styl_naglowka)
         label_title.pack(pady=20)
 
         label_instr = ttk.Label(self, text="Wybierz poziom trudności:")
@@ -87,7 +87,7 @@ class MastermindGUI(tk.Tk):
 
         self.btn_guess = tk.Button(
             self,
-            text="Zatwierdź zgadywanie",
+            text="Zgadnij",
             command=self.make_guess,
             font=self.styl_czcionki,
             bg="#66ccff",
