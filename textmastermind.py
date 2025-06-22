@@ -3,9 +3,9 @@ import random
 
 def get_difficulty_settings():
     settings = {
-        '1': {'name': 'Easy', 'code_length': 3, 'colors': ['R', 'G', 'B', 'Y']},
-        '2': {'name': 'Medium', 'code_length': 4, 'colors': ['R', 'G', 'B', 'Y', 'W', 'P']},
-        '3': {'name': 'Hard', 'code_length': 5, 'colors': ['R', 'G', 'B', 'Y', 'W', 'P', 'O', 'C']}
+        '1': {'name': 'Easy', 'code_length': 4, 'colors': ['R', 'G', 'B', 'Y']},
+        '2': {'name': 'Medium', 'code_length': 6, 'colors': ['R', 'G', 'B', 'Y', 'W', 'P']},
+        '3': {'name': 'Hard', 'code_length': 8, 'colors': ['R', 'G', 'B', 'Y', 'W', 'P', 'O', 'C']}
     }
     return settings
 
